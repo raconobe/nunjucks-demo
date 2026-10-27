@@ -4,13 +4,12 @@
   "author": "Raul",
   "description": "A lightweight static blog built with Nunjucks & Marked.",
   "siteUrl": "https://my-blog-domain.com",
-  "baseUrl": "/nunjucks-demo/"
+  "baseUrl": "/nunjucks-demo/",
   "features": [
     "Pure HTML, CSS & JS",
     "Nunjucks Includes & Loops",
     "JSON Data Injection",
     "Marked (.md) Integration"
-  ],
-   "baseUrl": "/"
+  ]
 }
  
