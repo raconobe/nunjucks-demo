@@ -4,7 +4,7 @@
         <description><![CDATA[A lightweight static blog built with Nunjucks & Marked.]]></description>
         <link>https://my-blog-domain.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Oct 2026 15:54:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Oct 2026 16:32:32 GMT</lastBuildDate>
         <atom:link href="https://my-blog-domain.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Raul]]></author>
         <language><![CDATA[en]]></language>
@@ -30,7 +30,7 @@
             <link>https://my-blog-domain.com/posts/info.html</link>
             <guid isPermaLink="true">https://my-blog-domain.com/posts/info.html</guid>
             <dc:creator><![CDATA[Raul]]></dc:creator>
-            <pubDate>Tue, 27 Oct 2026 15:54:03 GMT</pubDate>
+            <pubDate>Tue, 27 Oct 2026 16:32:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building Modular HTML with Nunjucks]]></title>

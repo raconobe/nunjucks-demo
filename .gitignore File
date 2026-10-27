@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Local build output
+build/
+
+# Local binaries & tools
+bin/
+
+# OS / Editor clutter
+.DS_Store
+*.log
