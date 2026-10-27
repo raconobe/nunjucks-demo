@@ -4,6 +4,7 @@
   "author": "Raul",
   "description": "A lightweight static blog built with Nunjucks & Marked.",
   "siteUrl": "https://my-blog-domain.com",
+  "baseUrl": "/nunjucks-demo/"
   "features": [
     "Pure HTML, CSS & JS",
     "Nunjucks Includes & Loops",
@@ -12,6 +13,4 @@
   ],
    "baseUrl": "/"
 }
-
-
  
