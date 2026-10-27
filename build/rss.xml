@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[My Static--------- Blog]]></title>
+        <description><![CDATA[A lightweight static blog built with Nunjucks & Marked.]]></description>
+        <link>https://my-blog-domain.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 27 Oct 2026 15:54:03 GMT</lastBuildDate>
+        <atom:link href="https://my-blog-domain.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[Raul]]></author>
+        <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Getting Started with Nunjucks & Front Matter RC----]]></title>
+            <description><![CDATA[A quick guide to separating metadata from markdown content.]]></description>
+            <link>https://my-blog-domain.com/posts/first-post.html</link>
+            <guid isPermaLink="true">https://my-blog-domain.com/posts/first-post.html</guid>
+            <category><![CDATA[webdev]]></category>
+            <category><![CDATA[static-site]]></category>
+            <dc:creator><![CDATA[Raul]]></dc:creator>
+            <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[info.html]]></title>
+            <description><![CDATA[<h1>Markdown Parsing Test</h1>
+<p>This content is loaded directly from a <strong>.md</strong> file and rendered as HTML using <code>marked</code> inside Nunjucks!</p>
+<ul>
+<li><strong>No complex build tools needed</strong></li>
+<li><strong>Instant live reloading on edit</strong></li>
+</ul>
+]]></description>
+            <link>https://my-blog-domain.com/posts/info.html</link>
+            <guid isPermaLink="true">https://my-blog-domain.com/posts/info.html</guid>
+            <dc:creator><![CDATA[Raul]]></dc:creator>
+            <pubDate>Tue, 27 Oct 2026 15:54:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building Modular HTML with Nunjucks]]></title>
+            <description><![CDATA[Learn how to use components and front matter for fast static builds.]]></description>
+            <link>https://my-blog-domain.com/posts/second-post.html</link>
+            <guid isPermaLink="true">https://my-blog-domain.com/posts/second-post.html</guid>
+            <category><![CDATA[nunjucks]]></category>
+            <category><![CDATA[javascript]]></category>
+            <dc:creator><![CDATA[Raul]]></dc:creator>
+            <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

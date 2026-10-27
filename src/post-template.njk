@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ meta.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  {% include "components/header.njk" %}
+
+  <main class="card">
+    <h1>{{ meta.title }}</h1>
+    <p><small>Published on {{ meta.date }} by {{ meta.author }}</small></p>
+
+    <hr>
+
+    <!-- Render Markdown Body -->
+    <div>{{ content | safe }}</div>
+
+    <p><a href="/">← Back to Home</a></p>
+  </main>
+
+</body>
+</html>

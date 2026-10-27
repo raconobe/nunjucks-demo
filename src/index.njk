@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }} - Home</title>
+<link rel="stylesheet" href="{{ 'css/style.css' | url }}">
+</head>
+<body>
+
+  {% include "components/header.njk" %}
+
+
+
+<h2>Latest Blog Posts</h2>
+<ul>
+  {% for post in posts %}
+    <li>
+      <h3><a href="{{ post.url | url }}">{{ post.meta.title }}</a></h3>
+    </li>
+  {% endfor %}
+</ul>
+
+
+  <main>
+    <section class="card">
+      <p>{{ site.description }}</p>
+      
+      <h3>Site Features (from JSON):</h3>
+      <ul>
+        {% for feature in site.features %}
+          <li>{{ feature }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="card">
+  <h2>Latest Blog Posts</h2>
+  <ul>
+    {% for post in posts %}
+      <li style="margin-bottom: 1.5rem;">
+        <h3><a href="{{ post.url }}">{{ post.meta.title }}</a></h3>
+        <p><small>Published: {{ post.meta.date }} | By {{ post.meta.author }}</small></p>
+        <p>{{ post.meta.description }}</p>
+        <div>
+          {% for tag in post.meta.tags %}
+            <span style="background: #e2e8f0; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">#{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

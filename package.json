@@ -1,0 +1,21 @@
+{
+  "name": "nunjucks-ssg",
+  "version": "1.0.0",
+  "description": "A custom static site generator built with Nunjucks, Marked, and Gray-Matter",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "build": "node build.js",
+    "preview": "npx serve build"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^15.0.12",
+    "nunjucks": "^3.2.4",
+    "rss": "^1.2.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
